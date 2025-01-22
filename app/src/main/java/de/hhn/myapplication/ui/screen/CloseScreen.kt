@@ -64,7 +64,7 @@ fun CloseScreen(
                 )
             }
             Text(
-                text = "Closed ToDo's",
+                text = "Completed ToDo's",
                 style = MaterialTheme.typography.titleLarge
             )
         }

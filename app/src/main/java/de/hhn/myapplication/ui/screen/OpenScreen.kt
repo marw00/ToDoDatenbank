@@ -64,7 +64,7 @@ fun OpenScreen(
                 )
             }
             Text(
-                text = "Open ToDo's",
+                text = "Active ToDo's",
                 style = MaterialTheme.typography.titleLarge
             )
         }
