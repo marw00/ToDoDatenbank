@@ -33,11 +33,11 @@ fun Dashboard() {
                 verticalArrangement = Arrangement.Center
             ) {
                 Button(onClick = { navController.navigate("open_screen") }) {
-                    Text("Open ToDo's", fontSize = 24.sp)
+                    Text("Active ToDo's", fontSize = 24.sp)
                 }
                 Spacer(modifier = Modifier.height(16.dp))
                 Button(onClick = { navController.navigate("close_screen") }) {
-                    Text("Close ToDo's", fontSize = 24.sp)
+                    Text("Completed ToDo's", fontSize = 24.sp)
                 }
                 Spacer(modifier = Modifier.height(16.dp))
             }
